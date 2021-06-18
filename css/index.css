@@ -1,0 +1,377 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 455px;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /*background-color: #fff;*/
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 16px;
+}
+
+.more {
+    float: right;
+}
+
+.more::after {
+    font-family: 'icomoon';
+    content: '\e920';
+}
+
+.lifeservice {
+    height: 209px;
+}
+
+.bargain {
+    margin-top: 6px;
+}
+
+.news-bd {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.lifeservice ul li a i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+}
+
+.i1 {
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+
+.i2 {
+    background: url(../images/icons.png) no-repeat -78px -16px;
+}
+
+.i3 {
+    background: url(../images/icons.png) no-repeat -141px -16px;
+}
+
+.i4 {
+    background: url(../images/icons.png) no-repeat -206px -14px;
+}
+
+.i5 {
+    background: url(../images/icons.png) no-repeat -16px -87px;
+}
+
+.i6 {
+    background: url(../images/icons.png) no-repeat -78px -88px;
+}
+
+.i7 {
+    background: url(../images/icons.png) no-repeat -141px -88px;
+}
+
+.i8 {
+    background: url(../images/icons.png) no-repeat -205px -88px;
+}
+
+.i9 {
+    background: url(../images/icons.png) no-repeat -16px -158px;
+}
+
+.i10 {
+    background: url(../images/icons.png) no-repeat -79px -158px;
+}
+
+.i11 {
+    background: url(../images/icons.png) no-repeat -141px -153px;
+}
+
+.i12 {
+    background: url(../images/icons.png) no-repeat -205px -159px;
+}
+
+.recom {
+    height: 163px;
+    margin-top: 12px;
+    background-color: #ebebeb;
+}
+
+.recom_hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recom_bd {
+    float: left;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom_bd ul li img {
+    height: 163px;
+    width: 248px;
+}
+
+.recom_bd ul li:nth-child(-n+3):after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+.guess_like {
+    height: 270px;
+    margin-top: 25px;
+}
+
+.guess_like_hd {
+    height: 40px;
+    line-height: 40px;
+}
+
+.guess_like_hd h4 {
+    font-size: 16px;
+    float: left;
+    color: d6d6d6;
+}
+
+.guess_like_hd a {
+    float: right;
+    padding-right: 20px;
+}
+
+.guess_like_hd a::after {
+    font-family: 'icomoon';
+    content: '\ea2e';
+    padding-left: 5px;
+}
+
+.guess_like_bd {
+    float: left;
+    width: 1200px;
+}
+
+.guess_like_bd ul {
+    height: 230px;
+    width: 1202px;
+    border: 1px solid #ededed;
+    overflow: hidden;
+}
+
+.guess_like_bd ul li {
+    float: left;
+    width: 200px;
+    height: 228px;
+}
+
+.like_img {
+    line-height: 160px;
+    text-align: center;
+    height: 160px;
+    width: 200px;
+}
+
+.like_txt {
+    padding-left: 35px;
+    -webkit-line-clamp: 2;
+}
+
+.like_txt p {
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 120px;
+    height: 33px;
+}
+
+.like_txt i {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #df3033;
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 30px;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.tab-list {
+    float: right;
+}
+
+.tab-list ul li {
+    line-height: 30px;
+    float: left;
+}
+
+.tab-list ul li a {
+    padding: 0 15px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_210 ul li {
+    text-align: center;
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    line-height: 33px;
+    margin-right: 10px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.bb {
+    /* a包含有宽度的盒子，a需要转化为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
